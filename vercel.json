@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "api/forest.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/forest",
+      "dest": "/api/forest.js"
+    }
+  ]
+}
