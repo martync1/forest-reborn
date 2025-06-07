@@ -2,7 +2,7 @@
   "version": 2,
   "functions": {
     "api/forest.js": {
-      "runtime": "nodejs-18.x"
+      "runtime": "nodejs@18.x" // <-- Change made here
     }
   },
   "routes": [
