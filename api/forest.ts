@@ -45,6 +45,18 @@ const forestPaths = {
     text: `It frowns. “Then write your own.” You wake up holding a pen.\n[The End - Empowered]`,
     options: []
   },
+  '1-3': {
+    text: `You lie beside the statue. It's warm. You hear distant flutes.\n1. Close your eyes.\n2. Sit up and look around.`,
+    options: ['1', '2']
+  },
+  '1-3-1': {
+    text: `You dream of stars in a spiral. One whispers: "Not yet."\n[The End - Celestial]`,
+    options: []
+  },
+  '1-3-2': {
+    text: `You sit up. The forest is silent now. The statue is gone.\n[The End - Disoriented]`,
+    options: []
+  },
   '2': {
     text: `Your sobs echo. A squirrel throws an acorn at you.\n1. Apologize.\n2. Throw it back.\n3. Hum a song.`,
     options: ['1', '2', '3']
